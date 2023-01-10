@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #141f33;
+    color: #f2f2f2;
+}
+h1{
+    background-color: #caec00
+    ;
+    color: #141f33;
+    font-size: 28pt;
+    text-transform: uppercase;
+}
+p{
+    font-size:18pt ;
+padding: 1em;
+}
+label{
+ font-size: 16pt;
+}
+.texto1{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    font-size: 14pt;
+}
+
+
+
+
+
+/* CSS */
+#submit{
+  background-color: #765bab;
+  border-radius: 12px;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  transition: 200ms;
+  
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit:not(:disabled):hover,
+.submit:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.submit:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
